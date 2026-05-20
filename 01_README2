@@ -18,16 +18,6 @@ Abrir y ejecutar el cuaderno de notas en la nube:
 
 ---
 
-## 🛠️ Tecnologías y Librerías Utilizadas
-
-El entorno de ejecución requiere de Python 3 y las siguientes librerías de análisis de datos y econometría (incluidas en los encabezados del código):
-* `pandas` y `numpy`: Para la manipulación y transformaciones de las matrices de datos.
-* `statsmodels`: Base central para las estimaciones por Mínimos Cuadrados Ordinarios (OLS) y pruebas de diagnóstico.
-* `matplotlib` y `seaborn`: Para la visualización de datos, mapas de calor y gráficos de residuos.
-* `scipy`: Empleada para el análisis de distribuciones estadísticas y pruebas F.
-
----
-
 ## 🗃️ Variables de la Base de Datos Original
 
 Al cargar `propiedades_puebla.csv`, el sistema procesa una muestra inicial de corte transversal con las siguientes dimensiones y características:

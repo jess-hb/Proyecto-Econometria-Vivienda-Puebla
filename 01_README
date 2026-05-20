@@ -6,14 +6,14 @@ Este repositorio contiene el proyecto final de la materia de Econometría, enfoc
 
 El proyecto consta de dos etapas principales: la extracción automatizada de datos (Web Scraping) y el posterior análisis y estimación econométrica. Para replicar los resultados, se debe seguir el siguiente orden cronológico de ejecución:
 ### Paso 1: Extracción e Ingeniería de Datos
-Ejecutar el script de Python:
-* **`Extracción base de datos.py`**: Este código realiza técnicas de *web scraping* de forma automatizada sobre el portal inmobiliario **Inmuebles24**. Captura variables clave de las propiedades en tiempo real (precios, superficies, habitaciones, coordenadas, etc.).
+Ejecutar el script de Python
+* **`02_Extracción base de datos.py`**: Este código realiza técnicas de *web scraping* de forma automatizada sobre el portal inmobiliario **Inmuebles24**. Captura variables clave de las propiedades en tiempo real (precios, superficies, habitaciones, coordenadas, etc.).
 * **Output:** La ejecución exitosa de este archivo genera un archivo comprimido en formato estructurado llamado `propiedades_puebla.csv`.
 
-> 💡 **Nota histórica de respaldo:** Para mayor comodidad y para asegurar la reproducibilidad exacta de este informe sin necesidad de volver a correr el scraper, la base de datos obtenida y utilizada originalmente ya se encuentra guardada y disponible en este repositorio bajo el nombre de **`propiedades_puebla.csv`**.
+> 💡 **Nota: ** Para mayor comodidad y para asegurar la reproducibilidad exacta de este informe sin necesidad de volver a correr el scraper, la base de datos obtenida y utilizada originalmente ya se encuentra guardada y disponible en este repositorio bajo el nombre de **`propiedades_puebla.csv`**.
 ### Paso 2: Análisis y Modelación Econométrica
-Abrir y ejecutar el cuaderno de notas en la nube:
-* **`Proyecto:Final.ipynb`**: Es el archivo principal de análisis desarrollado para la plataforma **Google Colab**.
+Abrir y ejecutar el codigo en Google Colab:
+* **`04_Proyecto_Final_Codigo.ipynb`**: Es el archivo principal de análisis desarrollado para la plataforma **Google Colab**.
 * **Instrucciones:** Se debe cargar el archivo `.csv` generado (o el de respaldo) directamente en el entorno de trabajo de Colab para proceder con la limpieza de datos, estadística descriptiva, análisis exploratorio (EDA) y la estimación de los modelos lineales y logarítmicos,
 
 ---
